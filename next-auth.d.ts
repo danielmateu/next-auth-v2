@@ -3,6 +3,7 @@ import NextAuth, { type DefaultSession } from "next-auth";
 export type ExtendedUser = DefaultSession["user"] & {
     // id: string | undefined
     role: "ADMIN" | "USER"
+    isTwoFactorEnabled: boolean
 }
 
 declare module "next-auth" {

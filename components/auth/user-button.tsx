@@ -4,14 +4,12 @@ import {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { FaUser } from "react-icons/fa"
-import { useCurrentUser } from "@/hooks/currentUser"
+import { useCurrentUser } from "@/hooks/use-current-user"
 import { LogoutButton } from "./logout-button"
 import { ExitIcon } from "@radix-ui/react-icons"
 

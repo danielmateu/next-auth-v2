@@ -19,7 +19,7 @@ export default function Home() {
         )}><span className="-m-2">🔐</span>Autenticación</h1>
         <p className="text-white text-lg">Un servicio de autenticación</p>
         <div>
-          <LoginButton >
+          <LoginButton mode="modal" asChild>
             <Button variant={"secondary"} size={"lg"}>
               Iniciar sesión
             </Button>
